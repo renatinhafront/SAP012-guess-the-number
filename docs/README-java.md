@@ -170,6 +170,7 @@ tente novamente, etc.
 - [Learn Java](https://www.w3schools.com/java/default.asp)
 - [Java Classes and Objects](https://www.w3schools.com/java/java_classes.asp)
 - [Java Methods](https://www.w3schools.com/java/java_methods.asp)
+- [Convençoes de Código Java](https://www.devmedia.com.br/convencoes-de-codigo-java/23871)
 
 ### 4.3 Etapa 3 - Compreensão do Diagrama de Classes
 
