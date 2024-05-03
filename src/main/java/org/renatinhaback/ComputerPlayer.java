@@ -7,6 +7,7 @@ public class ComputerPlayer extends Player {
 
     @Override
     public Integer makeGuess() {
-        return 0;
+        Random random = new Random();
+        return random.nextInt(0, 100);
     }
 }
