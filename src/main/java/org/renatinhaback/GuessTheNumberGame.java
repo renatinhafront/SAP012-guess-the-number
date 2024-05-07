@@ -5,17 +5,23 @@ import java.util.Random;
 
 public class GuessTheNumberGame  {
     private static final Random random = new Random();
-    private final Integer targetNumber = random.nextInt(1, 100);
+    private int targetNumber = random.nextInt(1, 100);
 
-    public void main(String[] args) {
+    private final Player computerPlayer;
+    private final Player humanPlayer;
+
+    public GuessTheNumberGame(Player humanPlayer, Player computerPlayer) {
+        this.humanPlayer = humanPlayer;
+        this.computerPlayer = computerPlayer;
+    }
+
+    public void play() {
         System.out.println("Bem vindo ao Guess the Number" + "\n");
         System.out.println(targetNumber);
 
-        Player computerPlayer = new ComputerPlayer();
         computerPlayer.setName("Computer Player");
         computerPlayer.setGuesses(new ArrayList<>());
 
-        Player humanPlayer = new HumanPlayer();
         humanPlayer.setName("Player");
         humanPlayer.setGuesses(new ArrayList<>());
 
@@ -64,24 +70,8 @@ public class GuessTheNumberGame  {
         player.getGuesses().add(palpite);
         return createValidator(palpite);
     }
+
+    public void setTargetNumber(final int targetNumber) {
+        this.targetNumber = targetNumber;
+    }
 }
-
-
-
-// cada jogador terá 5 tentativas alternando entre player e computer
-
-// se o número gerado for MAIOR que o digitado retorna muito alto
-
-// System.out.println("-- Round - Player --"+ "\n" + "Player: Digite seu palpite: "+ "Muito alto");
-
-// se o número gerado for MENOR que o digitado retorna muito baixo
-
-// quando alguem acertar
-
-// Parabéns, você adivinhou o número!!
-
-// Ou então Ops, não foi dessa vez. Tente outra vez!!
-
-// guarda os números que o player digitou e retorna uma lista com as tentativas
-
-// retorna a quantidade de tentativas

@@ -1,6 +1,7 @@
 package org.renatinhaback;
 
 import org.apache.commons.lang3.math.NumberUtils;
+
 import java.util.Scanner;
 
 public class HumanPlayer extends Player {
@@ -12,10 +13,11 @@ public class HumanPlayer extends Player {
         String guess = scanner.nextLine();
 
 //         verifica se ele é um numero inteiro
-      while (!NumberUtils.isParsable(guess)){
-          System.out.print("Inválido, digite novamente: ");
-          guess = scanner.nextLine();
-      }
+        while (!NumberUtils.isParsable(guess)) {
+            System.out.print("Inválido, digite novamente: ");
+            guess = scanner.nextLine();
+        }
+
         return Integer.parseInt(guess);
     }
 }

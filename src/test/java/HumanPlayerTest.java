@@ -3,7 +3,6 @@ import org.junit.jupiter.api.Test;
 import org.renatinhaback.HumanPlayer;
 
 import java.io.ByteArrayInputStream;
-import java.io.InputStream;
 
 public class HumanPlayerTest {
 
