@@ -17,7 +17,7 @@ public class GuessTheNumberGame  {
 
     public void play() {
         System.out.println("Bem vindo ao Guess the Number" + "\n");
-        System.out.println(targetNumber);
+        //System.out.println(targetNumber);
 
         computerPlayer.setName("Computer Player");
         computerPlayer.setGuesses(new ArrayList<>());
