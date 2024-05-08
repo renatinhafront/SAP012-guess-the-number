@@ -27,6 +27,6 @@ jogo" width="600" height="400" >
 
   **_Divirta-se com o jogo de adivinhação de números! 🎲🎮_**
 
-<img src="https://github.com/renatinhafront/SAP012-guess-the-number/assets/107226201/6dfb8d20-0e7e-4394-aa2f-5e372f95f6ec" alt="ícone java" width="50" height="50" >
+<img src="https://github.com/renatinhafront/SAP012-guess-the-number/assets/107226201/6dfb8d20-0e7e-4394-aa2f-5e372f95f6ec" alt="ícone java" width="100" height="100" >
 
 
