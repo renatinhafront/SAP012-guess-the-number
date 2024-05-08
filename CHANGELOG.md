@@ -3,7 +3,7 @@
 
 Aprendizados da Sprint
 
-Aprendi a iniciar uma nova linguagem, nova IDEA - InteliJ, 
+Aprendi a iniciar uma nova linguagem, nova IDEA - IntelliJ, 
 modificadores de acesso, uso do while, dados primitivos e não primitivos, 
 cadeia de caracteres, Array, JUnit, Mockito, POO.
 
