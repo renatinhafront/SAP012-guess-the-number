@@ -9,8 +9,8 @@ e o computador se revezam tentando adivinhar um número aleatório entre 1 e 100
 Eles devem levar em consideração a tentativa anterior, se foi "muito alta" ou
 "muito baixa".
 
-![Demonstração animada de uma sessão de
-jogo](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
+<img src="https://github.com/renatinhafront/SAP012-guess-the-number/assets/107226201/5b121010-188a-4b72-9eb1-7c09718fc53b" alt="Demonstração animada de uma sessão de
+jogo" width="600" height="400" >
 
 ### **Regras do jogo**
 
